@@ -6,7 +6,7 @@
 
 1) **Fork and clone** this repository into your `W02D03` directory
 
-2) **Do:** [JS Pixart](js-pixart)
+2) **Do:** [JS Pixart](js-pixart-events)
 
 3) **Submit:** via GitHub issues. Follow the instructions found in the [wiki](https://git.generalassemb.ly/SEIR-Margaret/class-recordings-and-info/blob/master/submitting-homework.md).
 
