@@ -7,6 +7,11 @@
   margin: 15px auto;
 }
 
+#artboard {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .square {
   float: left;
   width: 10px;
