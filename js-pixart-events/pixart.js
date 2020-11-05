@@ -2,7 +2,7 @@
 const button = document.getElementById("set-color");
 const form = document.getElementById("form");
 const input = document.getElementById("color-field");
-const brush = document.getElementsByClassName("brush");
+const brush = document.getElementById("brush");
 const pixels = document.getElementsByClassName("square");
 
 // When you click the "Set Color" button , change the color of the
@@ -10,7 +10,8 @@ const pixels = document.getElementsByClassName("square");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let userInput = input.value;
-  brush.style.background = userInput;
+  brush.style.backgroundColor = userInput;
+  input.value = "";
 });
 
 // when user submits the form, we will save the value of the string
